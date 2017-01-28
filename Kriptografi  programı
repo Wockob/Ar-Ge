@@ -1,0 +1,134 @@
+#include<stdio.h>
+#include<conio.h>
+#include<locale.h>
+#include<windows.h>
+int main(){
+	setlocale(LC_ALL ,"Turkish"); 
+	int password2;
+	int password=778;
+		char word;
+		char a[] = "ad56";
+		char b[] = "a62d";
+		char c[] = "85ss";
+		char d[] = "q546";
+		char e[] = "pls5";
+		char f[] = "fck7";
+		char g[] = "sasd";
+		char h[] = "a23d";
+		char i[] = "k練n";
+		char j[] = "8*7b";
+		char k[] = "r-!t";
+		char l[] = "62+s";
+		char m[] = "+s/5";
+		char n[] = "564!";
+		char o[] = "!56f";
+		char p[] = "+a$+";
+		char r[] = "+a*f";
+		char s[] = "af1f";
+		char t[] = "aas9";
+		char u[] = "assa";
+		char v[] = "gay5";
+		char y[] = "mrt6";
+		char z[] = "cenk";
+		char x[] = "+^#2";
+		char w[] = "+7$1";
+	system("color 0e");
+	system("title Kryptonite");
+	printf("     ____________________________________________________________________\n");
+	printf("     ##                          #Kryptonite                           ##\n");
+	printf("     ____________________________________________________________________\n      -_-PASSWORD<==>");
+	scanf("%d" ,&password2);
+	
+	if(password2==password){
+		Beep(523,800);
+		system("CLS");
+		printf("\n--------------------------------------------------------------------------------\n");
+		while(true){
+		Beep(500,500);
+		scanf("%s" ,&word);
+		switch(word) {
+            case 'a': 
+	        printf("%s\n" ,a);
+            break;
+            case 'b':  
+	        printf("%s\n" ,b);
+            break;
+            case 'c': 
+           	printf("%s\n" ,c);
+            break;
+            case 'd': 
+            printf("%s\n" ,d);
+            break;
+            case 'e': 
+            printf("%s\n" ,e);
+            break;
+            case 'f': 
+            printf("%s\n" ,f);
+            break;
+            case 'g': 
+            printf("%s\n" ,g);
+            break;
+            case 'h': 
+            printf("%s\n" ,h);
+            break;
+            case 'i': 
+            printf("%s\n" ,i);
+            break;
+            case 'j': 
+            printf("%s\n" ,j);
+            break;
+            case 'k': 
+            printf("%s\n" ,k);
+            break;
+            case 'l': 
+            printf("%s\n" ,l);
+            break;
+            case 'm': 
+            printf("%s\n" ,m);
+            break;
+            case 'n': 
+            printf("%s\n" ,n);
+            break;
+            case 'o': 
+            printf("%s\n" ,o);
+            break;
+            case 'p': 
+            printf("%s\n" ,p);
+            break;
+            case 'r': 
+            printf("%s\n" ,r);
+            break;
+            case 's': 
+            printf("%s\n" ,s);
+            break;
+            case 't': 
+            printf("%s\n" ,t);
+            break;
+            case 'u': 
+            printf("%s\n" ,u);
+            break;
+            case 'v': 
+            printf("%s\n" ,v);
+            break;
+            case 'y': 
+            printf("%s\n" ,y);
+            break;
+            case 'z': 
+            printf("%s\n" ,z);
+            break;
+            case 'x': 
+            printf("%s\n" ,x);
+            break;
+            case 'w': 
+            printf("%s\n" ,w);	 
+		}
+  }
+		}
+	else {
+		system("color 9C");
+		Beep(440,500);
+		printf("    ERROR***");
+	}
+	getch();
+	return 0;
+}
